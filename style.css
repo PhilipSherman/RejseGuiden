@@ -3,6 +3,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: #606c38;
     font-family: monospace;
@@ -11,7 +12,8 @@ body {
 /* classes */
 
 .indhold {
-    padding-top: 100vh; /*100% af viewportens højde, altså padding vil være 100% af browserens højde*/
+    padding-top: 100vh;
+    /*100% af viewportens højde, altså padding vil være 100% af browserens højde*/
     margin-left: 18vw;
     margin-right: 18vw;
 
@@ -20,16 +22,18 @@ body {
 .logo {
     width: 25vw;
     position: absolute;
-    top: -17%;
+    top: 5%;
     left: 0;
     padding: none;
 }
 
 .knappen {
     position: absolute;
-    top: 50%; /*rykker hjørnet 50% ned og 50% højre*/
+    top: 50%;
+    /*rykker hjørnet 50% ned og 50% højre*/
     left: 50%;
-    transform: translate(-50%, -50%); /* sikrer at det midtpunktet af knappen der bliver rykket 50%*/
+    transform: translate(-50%, -50%);
+    /* sikrer at det midtpunktet af knappen der bliver rykket 50%*/
     display: inline-block;
     border-radius: 20px;
     background-color: #606c38;
@@ -69,13 +73,18 @@ body {
 /*Id*/
 
 #forsidevideo {
-    position: absolute; /* gør videoen frit fra de omkringliggende elementer*/
-    top: 0; /*Sætter margenet helt oppe fra hjørnet*/
-    left: 0; /*--||--*/
+    position: absolute;
+    /* gør videoen frit fra de omkringliggende elementer*/
+    top: 0;
+    /*Sætter margenet helt oppe fra hjørnet*/
+    left: 0;
+    /*--||--*/
     width: 100%;
     height: 100%;
-    object-fit: cover; /*sikrer at det dækker hele siden uden proportionerne ødelægges*/
-    z-index: -1; /*angiver hvilket lag objektet ligge i*/
+    object-fit: cover;
+    /*sikrer at det dækker hele siden uden proportionerne ødelægges*/
+    z-index: -1;
+    /*angiver hvilket lag objektet ligge i*/
 }
 
 #overskrift {
@@ -85,7 +94,8 @@ body {
 
 #boks1 {
     margin-right: 50vw;
-    text-align: justify; /*lave helt margin (hverken venstre eller højre margin)*/
+    text-align: justify;
+    /*lave helt margin (hverken venstre eller højre margin)*/
 
 }
 
@@ -96,4 +106,3 @@ body {
 #anker1 {
     color: #fefae0;
 }
-
