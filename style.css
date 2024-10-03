@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    width: 25vw;
+    /*width: 25vw;*/
     position: absolute;
     top: 5%;
     left: 0;
