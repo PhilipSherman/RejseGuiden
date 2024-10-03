@@ -25,6 +25,7 @@ body {
     top: 5%;
     left: 0;
     padding: none;
+    z-index: 2;
 }
 
 .knappen {
