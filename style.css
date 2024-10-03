@@ -71,6 +71,15 @@ body {
     right: 0;
 }
 
+.indhold2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 18vw;
+    padding: 20px;
+
+}
+
 /*Id*/
 
 #forsidevideo {
@@ -106,4 +115,13 @@ body {
 
 #anker1 {
     color: #fefae0;
+}
+
+#citat {
+    font-size: 40px;
+
+}
+
+#citatforfatter {
+    font-size: 25px;
 }
