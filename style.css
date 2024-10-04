@@ -81,11 +81,18 @@ body {
 .destinationsize {
     display: flex;
     width: 13vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
 }
 
-.destinationsfordeling {
+.boksdestinationtekst {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    width: 13vw;
+    text-align: center;
+    background-color: aqua;
 }
 
 
@@ -141,7 +148,7 @@ body {
 #boks1breadtekst {
     display: flex;
     text-align: justify;
-    font-size: 0.7vw;
+    font-size: 0.9vw;
 }
 
 #finddestination {
@@ -151,6 +158,17 @@ body {
 }
 
 #billederdestination {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3vh;
+}
+
+#doverskrift {
+    font-size: 1.8vw;
+    padding-top: 3vh;
+}
+
+#boksdestination {
     display: flex;
     flex-direction: row;
 }
