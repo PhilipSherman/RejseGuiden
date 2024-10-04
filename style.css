@@ -13,6 +13,7 @@ body {
 
 .indhold {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     padding-top: 100vh;
     align-items: center;
