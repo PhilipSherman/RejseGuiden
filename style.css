@@ -81,8 +81,8 @@ body {
 .destinationsize {
     display: flex;
     width: 13vw;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
 }
 
 .boksdestinationtekst {
@@ -92,7 +92,7 @@ body {
     margin-right: 2.5vw;
     width: 13vw;
     text-align: center;
-    background-color: aqua;
+    background-color: #DDA15E;
 }
 
 
