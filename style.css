@@ -12,10 +12,10 @@ body {
 /* classes */
 
 .indhold {
+    display: flex;
+    justify-content: center;
     padding-top: 100vh;
-    /*100% af viewportens højde, altså padding vil være 100% af browserens højde*/
-    margin-left: 18vw;
-    margin-right: 18vw;
+    align-items: center;
 
 }
 
@@ -73,11 +73,8 @@ body {
 
 .indhold2 {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 18vw;
-    padding: 20px;
-
+    padding-left: 5vw;
+    align-items: last baseline;
 }
 
 /*Id*/
@@ -102,15 +99,9 @@ body {
     font-family: monospace;
 }
 
-#boks1 {
-    margin-right: 50vw;
-    text-align: justify;
-    /*lave helt margin (hverken venstre eller højre margin)*/
-
-}
-
 #boks1overskrift {
     text-align: center;
+    font-size: xx-large;
 }
 
 #anker1 {
@@ -118,10 +109,22 @@ body {
 }
 
 #citat {
+    display: flex;
     font-size: 40px;
-
 }
 
 #citatforfatter {
     font-size: 25px;
+}
+
+#boks1venstre {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+
+#boks1brødtekst {
+    display: flex;
+    text-align: justify;
+
 }
