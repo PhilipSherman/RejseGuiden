@@ -102,7 +102,7 @@ body {
 
 #boks1overskrift {
     display: flex;
-    text-align: center;
+    justify-content: center;
     font-size: xx-large;
 }
 
