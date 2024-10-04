@@ -101,6 +101,7 @@ body {
 }
 
 #boks1overskrift {
+    display: flex;
     text-align: center;
     font-size: xx-large;
 }
@@ -115,6 +116,7 @@ body {
 }
 
 #citatforfatter {
+    display: flex;
     font-size: 25px;
 }
 
