@@ -103,7 +103,8 @@ body {
 #boks1overskrift {
     display: flex;
     justify-content: center;
-    font-size: xx-large;
+    font-size: 1.8vw;
+    height: 2vh;
 }
 
 #anker1 {
@@ -112,12 +113,12 @@ body {
 
 #citat {
     display: flex;
-    font-size: 40px;
+    font-size: 2.1vw;
 }
 
 #citatforfatter {
     display: flex;
-    font-size: 25px;
+    font-size: 1.4vw;
 }
 
 #boks1venstre {
@@ -129,5 +130,12 @@ body {
 #boks1breadtekst {
     display: flex;
     text-align: justify;
+    font-size: 0.7vw;
+}
 
+#finddestination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
