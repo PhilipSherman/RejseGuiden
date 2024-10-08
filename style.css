@@ -92,9 +92,32 @@ body {
     margin-right: 2.5vw;
     width: 13vw;
     text-align: center;
+    align-items: center;
     background-color: #DDA15E;
+    height: 22.5vh;
 }
 
+.destinationoverskrift {
+    margin-bottom: -0.5vh;
+    font-size: 1vw;
+}
+
+.destinationknap {
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 5vw;
+    border-radius: 1vw;
+    background-color: #bc6c25;
+    margin-top: 0.5vh;
+    font-size: 0.7vw;
+}
+
+.destinationbreadtekst {
+    font-size: 0.7vw;
+}
 
 /*Id*/
 
@@ -171,4 +194,8 @@ body {
 #boksdestination {
     display: flex;
     flex-direction: row;
+}
+
+#fod {
+    font-size: 0.8vw;
 }
