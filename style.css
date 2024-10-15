@@ -119,6 +119,13 @@ body {
     font-size: 0.7vw;
 }
 
+.knapperunderdestination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
 /*Id*/
 
 #forsidevideo {
