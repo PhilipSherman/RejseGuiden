@@ -123,7 +123,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 /*Id*/
@@ -205,4 +207,6 @@ body {
 
 #fod {
     font-size: 0.8vw;
+    justify-content: center;
+    align-items: center;
 }
