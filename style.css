@@ -105,7 +105,7 @@ body {
 .destinationknap {
     display: flex;
     border: none;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 5vh;
     width: 5vw;
@@ -113,6 +113,7 @@ body {
     background-color: #bc6c25;
     margin-top: 0.5vh;
     font-size: 0.7vw;
+    
 }
 
 .destinationbreadtekst {
