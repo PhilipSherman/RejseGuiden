@@ -6,6 +6,15 @@ html {
     overflow-x: hidden;
 }
 
+.logo {
+    width: 25vw;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    padding: none;
+    z-index: 2;
+}
+
 .storefoto {
     margin-top: -30vh;
     position: relative;
@@ -42,10 +51,17 @@ html {
 .faktaoverskrift {
     display: flex;
     align-self: center;
+    margin-bottom: -3.5vh;
 }
 
-#tabel {
+.faktaunderoverskrift {
     margin-left: 1vw;
+    font-size: 0.9vw;
+}
+
+.tabel {
+    margin-left: 1vw;
+    margin-top: -1.5vh;
 }
 
 th {
