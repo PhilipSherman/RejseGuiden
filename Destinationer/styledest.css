@@ -67,3 +67,7 @@ html {
 th {
     text-align: end;
 }
+
+td {
+    margin: 2vh;
+}
