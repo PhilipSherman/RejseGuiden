@@ -61,13 +61,15 @@ html {
 
 .tabel {
     margin-left: 1vw;
-    margin-top: -1.5vh;
+    margin-top: -1vh;
+    align-self: flex-start;
 }
 
 th {
     text-align: end;
 }
 
-td {
-    margin: 2vh;
+.tabeloverskrift {
+    border-right: 0vw;
+    text-align: center;
 }
