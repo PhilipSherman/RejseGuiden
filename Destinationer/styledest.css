@@ -123,7 +123,13 @@ a:hover {
     font-size: 0.8vw;
 }
 
-.landoverskrift {
+.canadaliste {
+    margin-left: 1vw;
+    margin-top: -4vh;
+    align-self: flex-start;
+}
+
+.austriaoverskrift {
     font-size: 2vw;
     position: absolute;
     margin-left: 57.5vw;
@@ -131,8 +137,34 @@ a:hover {
     color: #FEFAE0;
 }
 
-.canadaliste {
-    margin-left: 1vw;
-    margin-top: -4vh;
-    align-self: flex-start;
+.canadaoverskrift {
+    font-size: 2vw;
+    position: absolute;
+    margin-left: 57.5vw;
+    margin-top: -116.5vh;
+    color: #FEFAE0;
+}
+
+.thailandoverskrift {
+    font-size: 2vw;
+    position: absolute;
+    margin-left: 57.5vw;
+    margin-top: -103.5vh;
+    color: #FEFAE0;
+}
+
+.japanoverskrift {
+    font-size: 2vw;
+    position: absolute;
+    margin-left: 57.5vw;
+    margin-top: -112.5vh;
+    color: #FEFAE0;
+}
+
+.turkeyoverskrift {
+    font-size: 2vw;
+    position: absolute;
+    margin-left: 57.5vw;
+    margin-top: -116vh;
+    color: #FEFAE0;
 }
