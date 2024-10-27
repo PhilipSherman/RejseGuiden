@@ -123,10 +123,16 @@ a:hover {
     font-size: 0.8vw;
 }
 
-#landoverskrift {
+.landoverskrift {
     font-size: 2vw;
     position: absolute;
     margin-left: 57.5vw;
-    margin-top: -125vh;
+    margin-top: -115vh;
     color: #FEFAE0;
+}
+
+.canadaliste {
+    margin-left: 1vw;
+    margin-top: -4vh;
+    align-self: flex-start;
 }
