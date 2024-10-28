@@ -139,7 +139,35 @@ body {
     margin-top: -7vh;
 }
 
+.pakkeliste {
+    display: flex;
+    flex-direction: row;
+}
+
+.pakkelisteliste {
+    display: flex;
+    flex-direction: column;
+    list-style-position: inside;
+    background-color: #bc6c25;
+    align-self: flex-end;
+    width: 50vw;
+
+}
+
+.inputpakkeliste {
+    display: flex;
+    background-color: #bc6c25;
+    flex-direction: column;
+}
+
 /*Id*/
+
+#pakkelisteoverskrift {
+    text-align: center;
+    padding-top: 6vh;
+    padding-bottom: 4vh;
+    font-size: 1vw;
+}
 
 #forsidevideo {
     position: absolute;

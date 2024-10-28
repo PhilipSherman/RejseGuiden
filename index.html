@@ -124,37 +124,52 @@
             </div>
         </div>
     </div>
-    <div>
-        <div>
-            <h1>Lav din pakkeliste her</h1>
+    <div id="pakkelisteoverskrift">
+        <h1>Lav din pakkeliste her</h1>
+    </div>
+    <div class="pakkeliste">
+
+        <div class="inputpakkeliste">
+            <label for="inputTal">Hvor mange dage er din rejse?</label>
+            <input type="number" id="inputTal" placeholder="Antal dage" />
+
+            <button onclick="LavListen()">Generér!</button>
         </div>
-        <label for="inputTal">Hvor mange dage er din rejse?</label>
 
-        <input type="number" id="inputTal" />
-
-        <button onclick="Dageafsted()">Indsæt</button>
-
-
-        Er der varmt eller kold?
-        <select id="klima">
-            <option id="valg1" value="1">Varmt</option>
-            <option id="valg2" value="2">Koldt</option>
-            <option id="valg3" value="3">Blandet</option>
-        </select>
-
-
-        <p><span id="tshirts"></span></p>
-        <p><span id="undertoj"></span></p>
-        <p><span id="langebukser"></span></p>
-
-        <div>
-
+        <div class="pakkelisteliste">
+            <h2>Beklædning:</h2>
+            <ul>
+                <li id="1">Undertøj: </li>
+                <li id="9">Sokker: </li>
+                <li id="10">T-Shirts / Toppe: </li>
+                <li id="11">Tykke trøjer (Hvis nødvendigt): </li>
+                <li id="2">Bukser / Nederdele: </li>
+                <li id="3">Sko: </li>
+                <li id="4">Toiletsager</li>
+                <li id="5">Jakke (Hvis nødvendigt): </li>
+                <li id="6">Regnjakke: </li>
+                <li id="7">Accesories: Solbriller, bælte osv.</li>
+                <li id="8">Badetøj (Hvis nødvendigt): </li>
+            </ul>
+            <h2>Dokumenter og Vigtige Ting:</h2>
+            <ul>
+                <li>Pas, evt. visum</li>
+                <li>Kørekort og evt. International Kørekort</li>
+                <li>Billet</li>
+                <li>Kredikort og Kontanter</li>
+            </ul>
+            <h2>Elektronik</h2>
+            <ul>
+                <li>Mobil og evt. Computer</li>
+                <li>Powerbank og Oplader</li>
+                <li>Adapterr (Hvis nødvendigt)</li>
+            </ul>
         </div>
     </div>
 
 
     <footer id="fod">
-        <p>Skribent: Philip S. Larsen 3.A</p>
+        <p>Skribent: Philip S. Larsen 3.A (2024)</p>
     </footer>
 
 
